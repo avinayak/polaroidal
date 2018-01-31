@@ -1,0 +1,17 @@
+.color {
+  -webkit-filter: grayscale(0%)  !important;
+  -webkit-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+  -moz-filter: grayscale(0%)  !important;
+  -moz-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+  -o-filter: grayscale(0%)  !important;
+  -o-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1) !important;
+} 
+
+video[poster],img[srcset] {
+  -webkit-filter: grayscale(100%) ;
+  -webkit-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1);
+  -moz-filter: grayscale(100%) ; 
+  -moz-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1);
+  -o-filter: grayscale(100%) ; 
+  -o-transition: 2s cubic-bezier(0.4, 0.0, 0.2, 1);
+}

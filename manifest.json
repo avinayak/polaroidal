@@ -1,0 +1,22 @@
+{
+  "name": "Polaroidal for Instagram",
+  "version": "1.1",
+  "author": "Atul Vinayak",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "http://www.twitter.com/avinayak/",
+  "icons": { 
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png" 
+  },
+  "content_scripts": 
+  [
+    {
+      "matches": ["https://www.instagram.com/"],
+      "js": ["resources/jquery.min.js","code/js.js"],
+      "css": ["code/css.css"]
+    }
+  ],
+  "web_accessible_resources":["resources/*"]
+}
